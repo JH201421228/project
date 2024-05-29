@@ -1,0 +1,53 @@
+.chat-enter {
+    opacity: 0;
+    transform: translateY(100%);
+}
+.chat-enter-active {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: opacity 300ms, transform 300ms;
+}
+.chat-exit {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.chat-exit-active {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.video-transition-enter {
+    height: 30%;
+}
+.video-transition-enter-active {
+    height: 70%;
+    transition: height 300ms;
+}
+.video-transition-exit {
+    height: 70%;
+}
+.video-transition-exit-active {
+    height: 30%;
+    transition: height 300ms;
+}
+
+.video-panel > div {
+    height: 70%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FDE8A1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #EDA200;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FCCA03;
+}

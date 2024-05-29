@@ -1,0 +1,34 @@
+@import "common";
+
+@import "style";
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+body {
+  font-family: 'Poor Story', system-ui,;
+  // --bs-body-line-height: 4;
+  --bs-body-font-size: 1.2rem
+   $primary: #401f7c;
+  $bg-color: rgb(255, 233, 156);
+  $bg-nav-color: rgb(255, 215, 3);
+  $bg-color-active: rgb(41, 183, 114);
+  $bg-sidebar-color: rgb(255, 215, 3);
+  $bg-color-hover:rgb(41, 183, 114);
+  $text-color: #ffffff1a;
+  $subtext-color: #AAAAAA;
+  $font-size: 30px;
+  $font-size-small: 30px;
+  $icon-size: 5rem;
+  
+  @mixin hover-event {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  } 
+ 
+  background-color: $bg-color;  
+}
+
+.Toastify__toast-body {
+  font-family: 'Poor Story', serif;
+}
+
